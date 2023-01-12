@@ -25,5 +25,6 @@ class PlentyShopServiceProvider extends TemplateServiceProvider
         $widgetRepository = pluginApp(ContentWidgetRepositoryContract::class);
         // $widgetRepository->registerWidget(Test::class);
         $this->overrideTemplate("Ceres::Checkout.Components.ShippingProfileSelect", "PlentyShop::Checkout.Components.ShippingProfileSelect");
+        $this->overrideTemplate("Ceres::Checkout.Components.PaymentProviderSelect", "PlentyShop::Checkout.Components.PaymentProviderSelect");
     }
 }
