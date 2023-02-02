@@ -27,6 +27,5 @@ class PlentyShopServiceProvider extends TemplateServiceProvider
         $this->overrideTemplate("Ceres::Checkout.Components.ShippingProfileSelect", "PlentyShop::Checkout.Components.ShippingProfileSelect");
         $this->overrideTemplate("Ceres::Checkout.Components.PaymentProviderSelect", "PlentyShop::Checkout.Components.PaymentProviderSelect");
         $this->overrideTemplate("Ceres::Checkout.CheckoutView", "PlentyShop::Checkout.CheckoutView");
-
     }
 }
